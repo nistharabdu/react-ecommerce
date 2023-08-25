@@ -1,0 +1,11 @@
+.each-header-item--with-popup { cursor: pointer; }
+.each-header-item--with-popup .each-header-item__content { opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.5s;}
+.each-header-item--with-popup.active .each-header-item__content { opacity: 1; visibility: visible; transform: translateY(0); }
+.each-header-item__content--search { overflow: hidden; }
+.each-header-item__content--search form { transform: translateX(100%); transition: all 0.5s; }
+.each-header-item__content--search.active form { transform: translateX(0); }
+.cart-number {
+    position: absolute; top: -0.5rem; line-height: 1; right: -0.5rem; font-size: 0.7rem; line-height: 0.75rem;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: bold; color: #fff; background: tomato; width: 1rem; height: 1rem;border-radius: 50%; 
+}

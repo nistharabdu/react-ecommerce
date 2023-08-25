@@ -1,0 +1,3 @@
+.cardImage { height: 7.5rem; width: auto; display: block; margin: auto; }
+.cardHeart { position: absolute; top: 0.5rem; right: 0.5rem; }
+.card__header { flex: 1;}
